@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Testcontroller {
     @GetMapping("/test")
     public String test() {
-        return "Hello this is test";
+        return "Git 테스트용 체인지";
     }
 }
